@@ -244,12 +244,12 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #f56a6a;
+  color: #5672d0;
   text-decoration: none;
 }
 a:hover {
-  border-bottom-color: #f56a6a;
-  color: #f56a6a !important;
+  border-bottom-color: #5672d0;
+  color: #5672d0 !important;
 }
 a:hover strong {
   color: inherit;
@@ -261,8 +261,9 @@ b {
   font-weight: 600;
 }
 
-header.major > h2 > span {
-  color: #f56a6a;
+header.major > h2 > span,
+#banner h1 > span {
+  color: #5672d0;
 }
 
 em,
@@ -1534,7 +1535,7 @@ header p {
 }
 
 header.major > :last-child {
-  border-bottom: solid 3px #f56a6a;
+  border-bottom: solid 3px #5672d0;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0;
@@ -1598,8 +1599,8 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #f56a6a;
-  box-shadow: 0 0 0 1px #f56a6a;
+  border-color: #5672d0;
+  box-shadow: 0 0 0 1px #5672d0;
 }
 
 select {
@@ -1699,8 +1700,8 @@ input[type="radio"]:checked + label:before {
 }
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #f56a6a;
-  box-shadow: 0 0 0 1px #f56a6a;
+  border-color: #5672d0;
+  box-shadow: 0 0 0 1px #5672d0;
 }
 
 input[type="checkbox"] + label:before {
@@ -1990,7 +1991,7 @@ ul.contact li:before {
   font-weight: 400;
 }
 ul.contact li:before {
-  color: #f56a6a;
+  color: #5672d0;
   display: inline-block;
   font-size: 1.5em;
   height: 1.125em;
@@ -2042,7 +2043,7 @@ ul.pagination li > .page {
   text-align: center;
 }
 ul.pagination li > .page.active {
-  background-color: #f56a6a;
+  background-color: #5672d0;
   color: #ffffff !important;
 }
 ul.pagination li > .page.active:hover {
@@ -2138,8 +2139,8 @@ button,
   background-color: transparent;
   border-radius: 0.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #f56a6a;
-  color: #f56a6a !important;
+  box-shadow: inset 0 0 0 2px #5672d0;
+  color: #5672d0 !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -2203,7 +2204,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: #f56a6a;
+  background-color: #5672d0;
   box-shadow: none;
   color: #ffffff !important;
 }
@@ -2308,7 +2309,7 @@ button:disabled,
   width: 10em;
 }
 .features article .icon:before {
-  color: #f56a6a;
+  color: #5672d0;
   font-size: 2.75rem;
   position: relative;
   top: 0.05em;
@@ -2855,7 +2856,7 @@ button:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #f56a6a;
+  border-bottom: solid 5px #5672d0;
   padding: 6em 0 1em 0;
   position: relative;
 }
@@ -2928,21 +2929,26 @@ button:disabled,
   -webkit-flex-shrink: 0;
   -ms-flex-shrink: 0;
   flex-shrink: 0;
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   margin: 0 0 2em 4em;
   width: 50%;
 }
 #banner .image img {
-  height: 100%;
   -moz-object-fit: cover;
   -webkit-object-fit: cover;
   -ms-object-fit: cover;
   object-fit: cover;
-  -moz-object-position: center;
-  -webkit-object-position: center;
-  -ms-object-position: center;
-  object-position: center;
-  width: 100%;
+  -moz-object-position: center 15%;
+  -webkit-object-position: center 15%;
+  -ms-object-position: center 15%;
+  object-position: center 15%;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  border-radius: 50%;
 }
 @media screen and (orientation: portrait) {
   #banner {
@@ -2974,7 +2980,7 @@ button:disabled,
     -webkit-flex-shrink: 0;
     -ms-flex-shrink: 0;
     flex-shrink: 0;
-    margin: 0 0 4em 0;
+    margin: 0 0 2em 0;
     height: 25em;
     max-height: 50vh;
     min-height: 18em;
@@ -3022,7 +3028,7 @@ button:disabled,
 }
 #menu ul a:hover,
 #menu ul span:hover {
-  color: #f56a6a;
+  color: #5672d0;
 }
 #menu ul a.opener,
 #menu ul span.opener {
@@ -3060,7 +3066,7 @@ button:disabled,
 }
 #menu ul a.opener:hover:before,
 #menu ul span.opener:hover:before {
-  color: #f56a6a;
+  color: #5672d0;
 }
 #menu ul a.opener.active + ul,
 #menu ul span.opener.active + ul {
