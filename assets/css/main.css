@@ -207,7 +207,7 @@ body,
 input,
 select,
 textarea {
-  color: #7f888f;
+  color: #444444;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -257,7 +257,7 @@ a:hover strong {
 
 strong,
 b {
-  color: #3d4449;
+  color: #2a2e31;
   font-weight: 600;
 }
 
@@ -1653,7 +1653,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #7f888f;
+  color: #444444;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -1713,22 +1713,22 @@ input[type="radio"] + label:before {
 }
 
 ::-webkit-input-placeholder {
-  color: #9fa3a6 !important;
+  color: #7e8183 !important;
   opacity: 1;
 }
 
 :-moz-placeholder {
-  color: #9fa3a6 !important;
+  color: #7e8183 !important;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #9fa3a6 !important;
+  color: #7e8183 !important;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #9fa3a6 !important;
+  color: #7e8183 !important;
   opacity: 1;
 }
 
@@ -2648,7 +2648,7 @@ button:disabled,
   -webkit-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   transform: scaleX(-1);
-  color: #7f888f;
+  color: #444444;
   content: "\f002";
   cursor: default;
   display: block;
@@ -2832,7 +2832,7 @@ button:disabled,
     width: 7.25em;
   }
   #sidebar .toggle:before {
-    color: #7f888f;
+    color: #444444;
     margin-left: -0.0625em;
     margin-top: -0.25em;
     font-size: 1.1rem;
@@ -2996,7 +2996,7 @@ button:disabled,
 
 /* Footer */
 #footer .copyright {
-  color: #9fa3a6;
+  color: #555758;
   font-size: 0.9em;
 }
 #footer .copyright a {
@@ -3060,7 +3060,7 @@ button:disabled,
   -webkit-transition: color 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
-  color: #9fa3a6;
+  color: #5a5c5e;
   content: "\f078";
   position: absolute;
   right: 0;
@@ -3087,7 +3087,7 @@ button:disabled,
   padding: 0.5em 0 0 0;
 }
 #menu > ul > li > ul {
-  color: #9fa3a6;
+  color: #7e8183;
   display: none;
   margin: 0.5em 0 1.5em 0;
   padding-left: 1em;
