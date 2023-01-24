@@ -3229,30 +3229,30 @@ body.darkMode #sidebar > .inner > .alt {
   }
 }
 
-#header {
+body.darkMode #header {
   border-bottom: solid 5px #5672d0;
 }
 
-#footer .copyright {
+body.darkMode #footer .copyright {
   color: #555758;
 }
 
-#menu ul {
+body.darkMode #menu ul {
   color: #3d4449;
 }
-#menu ul a:hover,
-#menu ul span:hover {
+body.darkMode #menu ul a:hover,
+body.darkMode #menu ul span:hover {
   color: #5672d0;
 }
-#menu ul a.opener:before,
-#menu ul span.opener:before {
+body.darkMode #menu ul a.opener:before,
+body.darkMode #menu ul span.opener:before {
   color: #5a5c5e;
 }
-#menu ul a.opener:hover:before,
-#menu ul span.opener:hover:before {
+body.darkMode #menu ul a.opener:hover:before,
+body.darkMode #menu ul span.opener:hover:before {
   color: #5672d0;
 }
 
-#menu > ul > li > ul {
+body.darkMode #menu > ul > li > ul {
   color: #7e8183;
 }
