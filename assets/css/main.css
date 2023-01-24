@@ -3105,3 +3105,154 @@ button:disabled,
   margin-top: 0;
   padding-top: 0;
 }
+
+/* Mode sombre */
+
+body.darkMode {
+  background-color: #000;
+  color: #d3d3d3;
+}
+
+body.darkMode input,
+body.darkMode select,
+body.darkMode textarea {
+  color: #d3d3d3;
+}
+
+body.darkMode a {
+  color: #5672d0;
+}
+body.darkMode a:hover {
+  border-bottom-color: #5672d0;
+  color: #5672d0 !important;
+}
+
+body.darkMode strong,
+body.darkMode b {
+  color: #2a2e31;
+}
+
+body.darkMode header.major > h2 > span,
+#banner h1 > span {
+  color: #5672d0;
+}
+
+body.darkMode h1,
+body.darkMode h2,
+body.darkMode h3,
+body.darkMode h4,
+body.darkMode h5,
+body.darkMode h6 {
+  color: #3d4449;
+}
+
+body.darkMode header.major > :last-child {
+  border-bottom: solid 3px #5672d0;
+}
+
+body.darkMode label {
+  color: #3d4449;
+}
+
+body.darkMode ul.contact li:before {
+  color: #5672d0;
+}
+
+body.darkMode ul.pagination li > .page.active {
+  background-color: #5672d0;
+  color: #ffffff !important;
+}
+body.darkMode ul.pagination li > .page.active:hover {
+  background-color: #4666ce;
+}
+body.darkMode ul.pagination li > .page.active:active {
+  background-color: #3459cf;
+}
+
+body.darkMode input[type="submit"],
+body.darkMode input[type="reset"],
+body.darkMode input[type="button"],
+body.darkMode button,
+body.darkMode .button {
+  box-shadow: inset 0 0 0 2px #5672d0;
+  color: #5672d0 !important;
+}
+body.darkMode input[type="submit"]:hover,
+body.darkMode input[type="reset"]:hover,
+body.darkMode input[type="button"]:hover,
+body.darkMode button:hover,
+body.darkMode .button:hover {
+  background-color: #5672d010;
+}
+body.darkMode input[type="submit"]:active,
+body.darkMode input[type="reset"]:active,
+body.darkMode input[type="button"]:active,
+body.darkMode button:active,
+body.darkMode .button:active {
+  background-color: #5672d02c;
+}
+body.darkMode input[type="submit"].primary,
+body.darkMode input[type="reset"].primary,
+body.darkMode input[type="button"].primary,
+body.darkMode button.primary,
+body.darkMode .button.primary {
+  background-color: #5672d0;
+  color: #ffffff !important;
+}
+body.darkMode input[type="submit"].primary:hover,
+body.darkMode input[type="reset"].primary:hover,
+body.darkMode input[type="button"].primary:hover,
+body.darkMode button.primary:hover,
+body.darkMode .button.primary:hover {
+  background-color: #4666ce;
+}
+body.darkMode input[type="submit"].primary:active,
+body.darkMode input[type="reset"].primary:active,
+body.darkMode input[type="button"].primary:active,
+body.darkMode button.primary:active,
+body.darkMode .button.primary:active {
+  background-color: #3459cf;
+}
+body.darkMode .features article .icon:before {
+  color: #5672d0;
+}
+body.darkMode #sidebar {
+  background-color: #f5f6f7;
+}
+
+body.darkMode #sidebar > .inner > .alt {
+  background-color: #eff1f2;
+}
+@media screen and (max-width: 736px) {
+  body.darkMode #sidebar .toggle:before {
+    color: #444444;
+  }
+}
+
+#header {
+  border-bottom: solid 5px #5672d0;
+}
+
+#footer .copyright {
+  color: #555758;
+}
+
+#menu ul {
+  color: #3d4449;
+}
+#menu ul a:hover,
+#menu ul span:hover {
+  color: #5672d0;
+}
+#menu ul a.opener:before,
+#menu ul span.opener:before {
+  color: #5a5c5e;
+}
+#menu ul a.opener:hover:before,
+#menu ul span.opener:hover:before {
+  color: #5672d0;
+}
+
+#menu > ul > li > ul {
+  color: #7e8183;
+}
