@@ -2876,6 +2876,11 @@ button:disabled,
 
 #header .icons #darkModeToggle {
   cursor: pointer;
+  user-select: none;
+}
+
+#header .icons #darkModeToggle:hover {
+  color: #5672d0;
 }
 @media screen and (max-width: 1680px) {
   #header {
